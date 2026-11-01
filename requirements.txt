@@ -1,0 +1,49 @@
+# Core
+numpy>=1.24.0
+scipy>=1.10.0
+pyyaml>=6.0
+pillow>=10.0.0
+
+# Async/HTTP
+aiohttp>=3.8.0
+httpx>=0.25.0
+
+# CLI
+click>=8.1.0
+rich>=13.0.0
+
+# Web framework (for SaaS)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database/Queue (for SaaS)
+redis>=5.0.0
+asyncpg>=0.29.0
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Billing (for SaaS)
+stripe>=7.0.0
+
+# Monitoring
+prometheus-client>=0.19.0
+sentry-sdk>=1.38.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+pytest-mock>=3.12.0
+
+# Type checking
+mypy>=1.7.0
+types-pyyaml>=6.0.12
+
+# Linting
+ruff>=0.1.0
+
+# Documentation
+mkdocs>=1.5.0
+mkdocs-material>=9.4.0
